@@ -41,7 +41,7 @@ export const Projects = () => {
                         <img src={POS} alt="Web-Based School Uniform POS" className="w-full h-48 object-cover rounded-lg" />
                     </div>
                     <h3 className="text-xl font-bold mb-2">Web-Based School Uniform POS</h3>
-                    <p className="text-gray-400 mb-4">An Arduino-based Smart Growing Plant system automates plant care by monitoring conditions and adjusting resources for optimal growth.</p>
+                    <p className="text-gray-400 mb-4">A web-based school uniform POS with inventory system and queueing management feature for hassle free transactions.</p>
                     <div className="flex flex-wrap gap-2 mb-4">
                         {["JavaScript", "Bootstrap", "PHP", "MySQL"].map((tech, key) => (
                             <span key={key} className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 
